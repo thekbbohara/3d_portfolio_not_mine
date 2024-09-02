@@ -1,7 +1,5 @@
 
 import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import Earth from "./Earth";
 
 
 const Hero = () => {
@@ -48,9 +46,15 @@ const Hero = () => {
                 duration: 1,
                 ease: 'easeInOut',
             }}>
-                <Earth />
+            <div className=" items-center justify-center max-md:hidden">
+                 <iframe src="https://lottie.host/embed/522ecc93-6ed1-4666-a114-0d9408f1061f/RHPMgn1SE4.json" width={500} height={500} />
+            </div> <div className="items-center justify-center md:hidden max-md:flex max-sm:hidden">
+                <iframe src="https://lottie.host/embed/522ecc93-6ed1-4666-a114-0d9408f1061f/RHPMgn1SE4.json" width={450} height={450} />
+            </div>
+            <div className="items-center justify-center sm:hidden max-sm:flex">
+                <iframe src="https://lottie.host/embed/522ecc93-6ed1-4666-a114-0d9408f1061f/RHPMgn1SE4.json" width={400} height= {400} />
+            </div>
          </motion.div>
-
     </div>
   )
 }

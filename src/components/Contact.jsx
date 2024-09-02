@@ -126,7 +126,7 @@ const Contact = () => {
             }}
           >
             r11137307@gmail.com
-          </a>
+          </a >
         </div>
 
         </div>
