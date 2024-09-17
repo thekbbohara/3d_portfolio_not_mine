@@ -13,11 +13,11 @@ const Hero = () => {
                 duration: 1,
                 ease: 'easeInOut',
             }}
-            className="text-[50px] font-bold text-[#fff]"
+            className="text-[50px] font-bold text-[#fff] "
 
                 >
                 Front-End React <br />
-                Developer 👋🏼
+                <span className="flex items-center gap-3">Developer <img src="/waving_hand.png" alt=""  className="block h-14"/></span>
             </motion.h1>
             <motion.p initial={{opacity: 0, y: -50}}
             animate={{opacity: 1, y: 0}}
@@ -26,7 +26,7 @@ const Hero = () => {
                 duration: 1,
                 ease: 'easeInOut',
             }} className="text-[15px] text-gray-300 mt-10">
-                Hi I'm Tasin Bin tarek . A passionate Front-end React <br /> Developer Based in Bangladesh 📍
+                Hi Im Tasin Bin tarek . A passionate Front-end React <br /> Developer Based in Bangladesh 📍
             </motion.p>
             <motion.div className="mt-10 flex gap-10" initial={{opacity: 0, y: -50}}
             animate={{opacity: 1, y: 0}}
@@ -35,7 +35,7 @@ const Hero = () => {
                 duration: 1,
                 ease: 'easeInOut',
             }}>
-                <img src={'/github.png'} alt="github" width={30} height={30} />
+                <a href="https://github.com/Rayan37307"><img src={'/github.png'} alt="github" width={30} height={30} /></a>
                 <img src={'/linkedin.png'} alt="github" width={30} height={30} />
             </motion.div>
         </div>
