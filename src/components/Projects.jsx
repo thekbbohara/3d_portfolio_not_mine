@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from 'framer-motion'
 
 const Projects = () => {
@@ -56,7 +56,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </motion.div>
   )
