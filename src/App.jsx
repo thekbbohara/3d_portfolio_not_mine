@@ -2,10 +2,11 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import FoundMe from "./components/FoundMe";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Song from "./components/Song";
 import TechStack from "./components/TechStack";
 
 export default function Home() {
@@ -23,6 +24,8 @@ export default function Home() {
     <div>
         <About />
     </div>
+    <Song />
+    <FoundMe />
     <Projects />
     <Contact />
     <div className="mt-44">
