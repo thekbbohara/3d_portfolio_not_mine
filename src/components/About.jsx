@@ -17,10 +17,10 @@ const About = () => {
         <h2 className='text-white font-bold text-[35px]'>Front-end Developer
         based in Bangladesh 📍</h2>
         <p className='text-gray-300 text-[16px]'>
-        Hey, my name is Tasin, and Im a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.
+        Hey, I'm Habibi, and Im a clone developer of frontend. My passion is to clone and develop a clean UI/UX for my users.
         </p>
         <p className='text-gray-300 text-[16px]'>
-        My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.
+        My main stack currently is whatever i find tutorial in combination with Tailwind CSS and TypeScript.
         </p>
 
         </motion.div>
